@@ -6,18 +6,18 @@
 #endif
 #include <ESP_Mail_Client.h>
 
-#define WIFI_SSID "Kinuthia"
-#define WIFI_PASSWORD "m@!n!90!"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 
 #define SMTP_HOST "smtp.gmail.com"
 #define SMTP_PORT 465
 
 /* The sign in credentials */
-#define AUTHOR_EMAIL "recordsinventory@gmail.com"
-#define AUTHOR_PASSWORD "ougovbgbsxlwyhgm"
+#define AUTHOR_EMAIL ""
+#define AUTHOR_PASSWORD ""
 
 /* Recipient's email*/
-#define RECIPIENT_EMAIL "elvisgitau10@gmail.com"
+#define RECIPIENT_EMAIL ""
 
 /* The SMTP Session object used for Email sending */
 SMTPSession smtp;
